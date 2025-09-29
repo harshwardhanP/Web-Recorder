@@ -4,7 +4,7 @@ let activeTabId = null;
 let pageLoadTime = Date.now();
 let windowId = null; 
 let windowState = 'normal'; 
-
+//jshint esversion: 6
 // Utility: escape XML chars
 function escapeXml(unsafe) {
     return String(unsafe).replace(/[<>&'"]/g, function (c) {
