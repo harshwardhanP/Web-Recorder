@@ -1,3 +1,5 @@
+//background.js - Background script for the browser extension
+// Manages recording state, event logging, and communication with content scripts
 let isRecording = false;
 let eventLog = [];
 let activeTabId = null;
