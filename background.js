@@ -7,7 +7,7 @@ let pageLoadTime = Date.now();
 let windowId = null; 
 let windowState = 'normal'; 
 //jshint esversion: 6
-// Utility: escape XML chars
+// Utility: escape XML chars kjhgfd
 function escapeXml(unsafe) {
     return String(unsafe).replace(/[<>&'"]/g, function (c) {
         switch (c) {
